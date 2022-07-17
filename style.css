@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+a{
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Segoe UI';
+    background-image: url(grafika/BG.png);
+}
+
+#container{
+    background-color: #ff6a00;
+	background-image: url(grafika/BG.png);
+}
+
+#top {
+    background-color: #000086;
+	border: solid black 3px;
+    width: 960px;
+    height: 80px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+    color: #FFF;
+    text-shadow: 0 0 4px #000;
+	margin-left: 24.3%;
+}
+
+#menu {
+    width: 25%;
+    height: 50%;
+    float: left;
+    position: fixed;
+	text-align: center;
+}
+
+#kafelkimenu{
+	border: solid #223800 3px;
+	background-color:#00b000;
+	font-size:20px;
+}
+
+#1 {
+    border: solid green 3px;
+}
+
+#strona {
+    background-color: #006601;
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left:25%;
+    text-align:center;
+}
+#dane{
+	float: left;
+	height:100%;
+	width: 100%;
+}
+#dane1{
+	height:100%;
+	width: 100%;
+}
+#obrazek{
+	float:left;
+	height:350px;
+	width: 40%;
+	margin: auto;
+}
+
+#Galeria{
+		float-left: auto;
+		margin:auto;
+}
+
+
+
+/*Do Quizu*/
+
+#quizWrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#quizQn {
+  padding: 20px;
+  background: #4c93ba; /* kolor pyt */
+  color: #fff;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+#quizAns {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
+#quizAns input[type=radio] {
+	display: none;
+}
+
+#quizAns label {
+  background: #fafafa; /* Kolor odp */
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#quizAns label.correct {
+  background: #d8ffc4;
+  border: 1px solid #60a03f;
+}
+
+#quizAns label.wrong {
+  background: #ffe8e8;
+  border: 1px solid #c78181;
+}
+
+/*Do Quizu*/
+
+
+#stopka {
+    background-color: #3f3f3f;
+	color: white;
+    width: 960px;
+    height: 50px;
+    float: left;
+	text-align: center;
+	margin-left: 24.3%;
+}
+
+#info5{
+	float: top;
+}
+
+
